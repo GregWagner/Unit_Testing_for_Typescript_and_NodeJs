@@ -1,0 +1,47 @@
+# Setting up jest project
+
+npm init -y
+
+npm i -D typescript jest ts-jest @types/jest ts-node
+
+npx ts-jest config:init
+
+Delete jest.config.js
+
+Create a jest.config.ts 
+----------------------------------
+import type { Config } from '@jest/types'
+
+const config: Config.InitialOptions = {
+    preset: 'ts-jest',
+    testEnvironment: 'node',
+    verbose: true
+}
+
+export default config;
+----------------------------------
+
+Create src folder and src/app and src/test
+
+Create tsconfig.json (tsc --init)
+----------------------------------
+{
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
+}
+----------------------------------
+
+----------------------------------
+Structure of a properly written unit test:
+  AAA Princiiples:
+    - arrange
+    - act
+    - assert
+
+  Used for more complex tests
+    - Setup
+    - Teardown
+
+----------------------------------
+

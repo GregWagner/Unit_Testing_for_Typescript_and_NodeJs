@@ -1,0 +1,17 @@
+TN:
+SF:src\app\Utils.ts
+FN:1,toUpperCase
+FN:13,getStringInfo
+FNF:2
+FNH:1
+FNDA:0,toUpperCase
+FNDA:6,getStringInfo
+DA:1,1
+DA:2,0
+DA:13,1
+DA:14,6
+LF:4
+LH:3
+BRF:0
+BRH:0
+end_of_record
