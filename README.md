@@ -1,1 +1,3 @@
-# Unit_Testing_for_Typescript_and_NodeJs
+# Unit Testing for Typescript and NodeJs
+My work from Alex Horea's Unit Testing for Typescript and Node.JS Udemy course
+Restarted on August 24, 2023
