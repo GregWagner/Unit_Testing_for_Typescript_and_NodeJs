@@ -8,10 +8,15 @@ describe("Utils test suite", () => {
       sut = new StringUtils();
     });
 
-    it("Should return correct uppercase", () => {
+    it("should return correct uppercase", () => {
+      // arrange
+      const expected = 'ABC';
+
+      // act
       const actual = sut.toUpperCase("abc");
 
-      expect(actual).toBe("ABC");
+      // assert
+      expect(actual).toBe(expected);
     });
 
     it("should throw error on invalid argument - function", () => {
